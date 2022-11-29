@@ -1,6 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Divider, Flex } from "@tremor/react";
+import { Icon } from "@tremor/react";
 import { MdOutlineElectricBike } from "react-icons/md";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import moment from "moment";
@@ -30,9 +31,16 @@ export const MenuItem = ({ i }) => {
           <div className="dropdown dropdown-right">
             <label
               tabIndex={0}
-              className="btn border-0 bg-white hover:bg-gray-200 m-0"
+              className="btn border-0 bg-white hover:bg-gray-200 m-0 p-0"
             >
-              <BsThreeDotsVertical className="w-5 h-5 text-gray-500" />
+              <Icon
+                icon={BsThreeDotsVertical}
+                variant="simple"
+                tooltip=""
+                size="sm"
+                color="blue"
+                marginTop="mt-0"
+              />
             </label>
             <ul
               tabIndex={0}

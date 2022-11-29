@@ -72,7 +72,7 @@ const Sidebar = ({ navigationData }) => {
   return (
     <nav
       className={
-        "fixed right-0 top-0 bottom-0 z-50 w-14 bg-white flex flex-col h-screen justify-between items-center py-3 rounded-l-3xl"
+        "fixed right-0 top-0 bottom-0 z-50 w-14 bg-white flex flex-col h-screen justify-between items-center py-3 rounded-l-3xl border"
       }
     >
       <span className={"text-4xl text-blue-800"}>

@@ -57,7 +57,7 @@ export default function Device() {
 
   return (
     <div className="flex w-full">
-      <div className="flex w-auto border shadow-md ">
+      <div className="flex w-auto border shadow-lg ">
         <motion.div
           animate={controls}
           className="max-w-[250px]  animate duration-300 relative flex flex-col min-h-screen group"

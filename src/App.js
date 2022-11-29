@@ -20,10 +20,8 @@ function App() {
               <div className="flex w-full">
                 <div className="relative w-full">
                   <Map />
-                  <div className="absolute bottom-0 w-full bg-white">
-                    <div className="h-96 w-full p-3">
-                      <DetailData />
-                    </div>
+                  <div className="absolute h-auto bottom-0 w-full bg-white">
+                    <DetailData />
                   </div>
                 </div>
               </div>

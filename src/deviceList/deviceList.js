@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MenuItem } from "./device";
 
 export const DeviceList = () => (
-  <div className="mt-0">
+  <div className="mt-0 shadow-md">
     <div className="m-2">
       <input
         type="text"
